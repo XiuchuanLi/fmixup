@@ -13,9 +13,4 @@ Implement HSJA with a relatively adequate query budget.
 Implement HSJA equipped with *frequency binary search* with a relatively adequate query budget.
 
 ### utils
-
-#### clean_resnet.csv
-Includes indexes of the validation examples which are correctly classified by ResNet50 pretrained by Pytorch.
-
-#### clean_mobilenet.csv
-Includes indexes of the validation examples which are correctly classified by MobileNetv2 pretrained by Pytorch.
+Includes general functions and indexes of examples that are correctly classified by the target model.
