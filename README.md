@@ -13,4 +13,4 @@ Implement HSJA with a relatively adequate query budget.
 Implement HSJA equipped with *frequency binary search* with a relatively adequate query budget.
 
 ### utils
-Includes general functions and indexes of examples that are correctly classified by the target model.
+Include general functions and indexes of examples that are correctly classified by the target model.
