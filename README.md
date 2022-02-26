@@ -24,6 +24,6 @@ Indexes of examples that are classified corretly by ResNet50.
 Indexes of examples that are classified correctly by MobileNetv2
 
 ## Requirements
--python 3.7.4
--pytorch 1.6.0
--torchvision 0.7.0
+- python 3.7.4
+- pytorch 1.6.0
+- torchvision 0.7.0
