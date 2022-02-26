@@ -22,3 +22,8 @@ Indexes of examples that are classified corretly by ResNet50.
 
 #### clean_mobilenet.csv
 Indexes of examples that are classified correctly by MobileNetv2
+
+## Requirements
+-python 3.7.4
+-pytorch 1.6.0
+-torchvision 0.7.0
