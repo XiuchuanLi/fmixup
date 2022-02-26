@@ -13,4 +13,12 @@ Implement HSJA with a relatively adequate query budget.
 Implement HSJA equipped with *frequency binary search* with a relatively adequate query budget.
 
 ### utils
-Include general functions and indexes of examples that are correctly classified by the target model.
+
+#### logger.py
+Logger utilities. It improves levels of logger and add coloration for each level
+
+#### clean_resnet.csv
+Indexes of examples that are classified corretly by ResNet50.
+
+#### clean_mobilenet.csv
+Indexes of examples that are classified correctly by MobileNetv2
