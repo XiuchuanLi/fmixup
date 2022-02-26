@@ -25,5 +25,6 @@ Indexes of examples that are classified correctly by MobileNetv2
 
 ## Requirements
 - python 3.7.4
+- numpy 1.17.2
 - pytorch 1.6.0
 - torchvision 0.7.0
