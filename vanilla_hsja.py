@@ -104,7 +104,7 @@ def select_beta(x_adv, dist_post, cur_iter):
 
 LOGGER = get_logger(__name__, level="DEBUG")
 parser = argparse.ArgumentParser()
-parser.add_argument("--valdir", "-v", type=str, default='../data/imagenet-val')
+parser.add_argument("--valdir", "-v", type=str, default='data/imagenet-val')
 parser.add_argument("--max_query", "-q", type=int, default=5000)
 parser.add_argument("--model", "-m", type=str, default='resnet')
 args = parser.parse_args()
