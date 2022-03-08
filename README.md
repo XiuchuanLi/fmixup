@@ -1,26 +1,21 @@
 # Decision-based Adversarial Attack with Frequency Mixup
 
-## Content
+## Usage
+Download the ILSVRC2012 validation set to "data/imagenet-val"
 
-### fattack.py
-Implement the *f-attack* with a limited query budget.
+*f-attack*
 
-### vanilla_hsja.py
-Implement HSJA with a relatively adequate query budget.
+```(bash)
+python fattack.py\
+    -v 'data/imagenet-val' \
+    -r 0.75 {r_h}\ 
+    -t 6 {distortion threshold}\ 
+    -q 500 {query budget}\
+    -m resnet {target model: resnet or mobilenet}\
+    --bd {equip the target model with boundary detection}\
+    --bl {equip the target model with blacklight}\
+```
 
-### revised_hsja.py
-Implement HSJA equipped with *frequency binary search* with a relatively adequate query budget.
-
-### utils
-
-#### logger.py
-Logger utilities. It improves levels of logger and add coloration for each level
-
-#### clean_resnet.csv
-Indexes of examples that are classified corretly by ResNet50.
-
-#### clean_mobilenet.csv
-Indexes of examples that are classified correctly by MobileNetv2
 
 ## Requirements
 - python 3.7.4
