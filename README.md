@@ -1,7 +1,7 @@
 # Decision-based Adversarial Attack with Frequency Mixup
 
 ## Usage
-Download the ILSVRC2012 validation set to "data/imagenet-val"
+Download and unzip the ILSVRC2012 validation set to "data/imagenet-val" folder.
 
 (1) *f-attack*
 
@@ -16,6 +16,7 @@ python fattack.py\
 To equip the target model with Blacklight or boundary detection, use `--bl` or `--bd`.
 
 (2) frequency binary search
+
 Run `vanilla_hsja.py` to perform vanilla HSJA and `revised_hsja.py` to perform HSJA equipped with frequency binary search.
 
 ## Requirements
