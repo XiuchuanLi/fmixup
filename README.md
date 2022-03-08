@@ -11,7 +11,7 @@ python fattack.py\
     -r {r_h}\ 
     -t {distortion threshold}\ 
     -q {query budget}\
-    -m {target model: resnet or mobilenet}\
+    -m {target model: resnet or mobilenet}
 ```
 To equip the target model with Blacklight or boundary detection, use `--bl` or `--bd`.
 
