@@ -29,4 +29,4 @@ Indexes of examples that are classified correctly by MobileNetv2
 - torchvision 0.7.0
 
 ## Notes
-The latest code gives better results that that in the origianl paper. Specifically, *f-attack* achieves a higher success rate and a remarkably stronger robustness against detection.
+The latest code gives better results than that in the origianl paper. Specifically, *f-attack* achieves a higher success rate and a remarkably stronger robustness against detection.
