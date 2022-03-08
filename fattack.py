@@ -101,7 +101,7 @@ def blacklight(adv_img):
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--valdir", "-v", type=str, default='../data/imagenet-val')
+parser.add_argument("--valdir", "-v", type=str, default='data/imagenet-val')
 parser.add_argument("--radius", "-r", type=float, default=0.75)
 parser.add_argument("--threshold", "-t", type=float, default=6)
 parser.add_argument("--max_query", "-q", type=int, default=500)
