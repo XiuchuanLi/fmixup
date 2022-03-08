@@ -7,15 +7,13 @@ Download the ILSVRC2012 validation set to "data/imagenet-val"
 
 ```(bash)
 python fattack.py\
-    -v 'data/imagenet-val' \
-    -r 0.75 {r_h}\ 
-    -t 6 {distortion threshold}\ 
-    -q 500 {query budget}\
-    -m resnet {target model: resnet or mobilenet}\
-    --bd {equip the target model with boundary detection}\
-    --bl {equip the target model with blacklight}\
+    -v 'data/imagenet-val'\
+    -r {r_h}\ 
+    -t {distortion threshold}\ 
+    -q {query budget}\
+    -m {target model: resnet or mobilenet}\
 ```
-
+To equip the target model with Blacklight or boundary detection, use `--bl` or `--bd`.
 
 ## Requirements
 - python 3.7.4
