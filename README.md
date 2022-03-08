@@ -1,7 +1,7 @@
 # Decision-based Adversarial Attack with Frequency Mixup
 
 ## Usage
-Download and unzip the ILSVRC2012 validation set to "data/imagenet-val" folder.
+Download and unzip the ILSVRC2012 validation set to `data/imagenet-val` folder.
 
 (1) *f-attack*
 
