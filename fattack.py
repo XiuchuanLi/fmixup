@@ -181,11 +181,11 @@ for i in range(num_clean):
     adv_img = torch.clamp(img + perturb, min=0, max=1)
     preds, ambiguities = norm_model(adv_img)
 
-    # attack succeeds
+    # attack fails
     if torch.sum(preds != label[i]) == 0:
         LOGGER.info(f"{i}, Fail")
 
-    # attack fails
+    # attack succeeds
     else:
         index_adv = torch.nonzero(preds != label[i])[0][0].item()  # first successful adversarial example
         if args.bl:
