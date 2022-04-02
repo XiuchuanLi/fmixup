@@ -1,5 +1,7 @@
 # Decision-based Adversarial Attack with Frequency Mixup
 
+This repository is the official implementation of [Decision-based Adversarial Attack with Frequency Mixup].
+
 ## Usage
 Download and unzip the ILSVRC2012 validation set to `data/imagenet-val` folder.
 
@@ -25,5 +27,15 @@ Run `vanilla_hsja.py` to perform vanilla HSJA and `revised_hsja.py` to perform H
 - pytorch 1.6.0
 - torchvision 0.7.0
 
-## Notes
-The latest code gives better results than that in the origianl paper. Specifically, *f-attack* achieves a higher success rate and a remarkably stronger robustness against detection.
+## Reference
+For technical details and full experimental results, please check the paper. If you have used our work in your own, please consider citing:
+
+```bibtex
+@article{li2022decision,
+  title={Decision-based Adversarial Attack with Frequency Mixup},
+  author={Li, Xiu-Chuan and Zhang, Xu-Yao and Yin, Fei and Liu, Cheng-Lin},
+  journal={IEEE Transactions on Information Forensics and Security},
+  year={2022},
+  publisher={IEEE}
+}
+```
