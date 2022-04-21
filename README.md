@@ -32,9 +32,11 @@ For technical details and full experimental results, please check the paper. If 
 
 ```bibtex
 @article{li2022decision,
-  title={Decision-based Adversarial Attack with Frequency Mixup},
+  title={Decision-Based Adversarial Attack With Frequency Mixup},
   author={Li, Xiu-Chuan and Zhang, Xu-Yao and Yin, Fei and Liu, Cheng-Lin},
   journal={IEEE Transactions on Information Forensics and Security},
+  volume={17},
+  pages={1038--1052},
   year={2022},
   publisher={IEEE}
 }
