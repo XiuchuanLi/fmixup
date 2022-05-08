@@ -27,7 +27,7 @@ Run `vanilla_hsja.py` to perform vanilla HSJA and `revised_hsja.py` to perform H
 - pytorch 1.6.0
 - torchvision 0.7.0
 
-## Noete
+## Note
 We have modified some details of *f-attack* and obtained better performance than that reported in the original paper.
 
 ## Reference
