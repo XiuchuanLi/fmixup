@@ -17,7 +17,7 @@ python fattack.py\
 ```
 To equip the target model with Blacklight or boundary detection, use `--bl` or `--bd`.
 
-(2) frequency binary search
+(2) *frequency binary search*
 
 Run `vanilla_hsja.py` to perform vanilla HSJA and `revised_hsja.py` to perform HSJA equipped with frequency binary search.
 
@@ -26,6 +26,9 @@ Run `vanilla_hsja.py` to perform vanilla HSJA and `revised_hsja.py` to perform H
 - numpy 1.17.2
 - pytorch 1.6.0
 - torchvision 0.7.0
+
+## Noete
+We have modified some details of *f-attack* and obtained better performance than that reported in the original paper.
 
 ## Reference
 For technical details and full experimental results, please check the paper. If you have used our work in your own, please consider citing:
