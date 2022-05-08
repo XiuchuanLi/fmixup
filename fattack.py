@@ -157,7 +157,7 @@ for i in range(num_clean):
         fpass_clean = fimg * bp_filter
         pass_clean = np.fft.ifft2(np.fft.ifftshift(fpass_clean)).real.astype(np.float32)
         pass_clean = torch.tensor(pass_clean)
-        if torch.norm(pass_clean) < args.threshold * 0.7:
+        if torch.norm(pass_clean) < args.threshold * 0.6:  # in our paper the value is 0.7, but 0.6 is better actually
             r_l_right = r_l_mid
         else:
             r_l_left = r_l_mid
