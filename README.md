@@ -17,6 +17,8 @@ python fattack.py\
 ```
 To equip the target model with Blacklight or boundary detection, use `--bl` or `--bd`.
 
+Compared with the vanilla *f-attack*, *dynamic f-attack* requires fewer reference examples and achieves slightly better performance.
+
 (2) *frequency binary search*
 
 Run `vanilla_hsja.py` to perform vanilla HSJA and `revised_hsja.py` to perform HSJA equipped with frequency binary search.
