@@ -127,7 +127,9 @@ LOGGER.info(f"loading data")
 num_clean, num_reference = 500, args.max_query
 mean = torch.tensor([0.485, 0.456, 0.406]).reshape([3, 1, 1])
 std = torch.tensor([0.229, 0.224, 0.225]).reshape([3, 1, 1])
+# np.random.seed(6)
 np.random.seed(66)
+# np.random.seed(666)
 clean_index = index[np.floor(np.linspace(0, index.shape[0] - 1, num_clean)).astype(np.int32)]  # select clean examples
 reference_index = np.setdiff1d(np.arange(50000), clean_index)  # remove clean examples
 reference_index = np.random.choice(reference_index, num_reference, replace=False).astype(np.int32)  # select reference examples
