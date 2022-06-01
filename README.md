@@ -17,20 +17,17 @@ python fattack.py\
 ```
 To equip the target model with Blacklight or boundary detection, use `--bl` or `--bd`.
 
-Compared with the vanilla *f-attack*, *dynamic f-attack* requires fewer reference examples and achieves slightly better performance.
+Compared with the vanilla *f-attack*, *dynamic f-attack* requires fewer reference examples and achieves slightly better performance. We also provide the code of *SurFree* for comparison.
 
 (2) *frequency binary search*
 
-Run `vanilla_hsja.py` to perform vanilla HSJA and `revised_hsja.py` to perform HSJA equipped with frequency binary search.
+Run `vanilla_hsja.py` to perform untargeted vanilla HSJA and `revised_hsja.py` to perform untargeted HSJA equipped with frequency binary search. Run `vanilla_qeba_target.py` to perform targeted vanilla QEBA and `revised_qeba_target.py` to perform targeted QEBA equipped with frequency binary search.
 
 ## Requirements
 - python 3.7.4
 - numpy 1.17.2
 - pytorch 1.6.0
 - torchvision 0.7.0
-
-## Note
-We have modified some details of *f-attack* and obtained better performance than that reported in the original paper.
 
 ## Reference
 For technical details and full experimental results, please check the paper. If you have used our work in your own, please consider citing:
