@@ -117,7 +117,7 @@ model.eval()
 
 LOGGER.info(f"Loading data")
 num_clean, num_reference = 500, args.max_query
-random.seed(66)
+np.random.seed(66)
 clean_index = index[np.floor(np.linspace(0, index.shape[0] - 1, num_clean)).astype(np.int32)]  # select clean examples
 reference_index = np.setdiff1d(np.arange(50000), clean_index)  # remove clean examples
 reference_index = np.random.choice(reference_index, num_reference, replace=False).astype(np.int32)  # select reference examples
