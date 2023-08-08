@@ -21,7 +21,7 @@ Compared with the vanilla *f-attack*, *dynamic f-attack* requires fewer referenc
 
 (2) *frequency binary search*
 
-Run `vanilla_hsja.py` to perform untargeted vanilla HSJA and `revised_hsja.py` to perform untargeted HSJA equipped with frequency binary search. Run `vanilla_qeba_target.py` to perform targeted vanilla QEBA and `revised_qeba_target.py` to perform targeted QEBA equipped with frequency binary search.
+Run `vanilla_hsja.py` to perform untargeted vanilla HSJA and `revised_hsja.py` to perform untargeted HSJA equipped with frequency binary search.
 
 ## Requirements
 - python 3.7.4
